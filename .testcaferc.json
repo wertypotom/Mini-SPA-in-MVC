@@ -1,0 +1,14 @@
+{
+    "debugOnFail": false,
+    "disableMultipleWindows": true,
+    "skipJsErrors": true,
+    "src": "/testing/testcafe/*.ts",
+    "selectorTimeout": 2000,
+    "assertionTimeout": 2000,
+    "browsers": "chrome:headless",
+    "compilerOptions": {
+      "typescript": {
+        "configPath": "tsconfig.testcafe.json"
+      }
+    }
+}
